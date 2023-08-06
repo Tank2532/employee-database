@@ -65,7 +65,7 @@ function promptMainMenu() {
         if (res.prompt === "Delete Department") {
             deleteDepartment();
         }
-    });
+        });
 }
 
 const viewEmployees = () => {
@@ -108,7 +108,7 @@ const addDepartment = () => {
         });
         console.log("This department was added to the department table.");
         promptMainMenu();
-    });
+        });
 };
 
 const addRole = () => {
